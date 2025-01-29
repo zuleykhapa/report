@@ -37,6 +37,8 @@ jobs:
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          name: 2025-01-28_REPORT_FILE-6.md
 
   # Deployment job
   deploy:
